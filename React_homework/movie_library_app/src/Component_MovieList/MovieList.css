@@ -1,0 +1,17 @@
+.header {
+    background-color: rgb(216, 172, 91);
+    padding-top: 1px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid rgb(100, 49, 43);
+}
+
+.moviesList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 35vh;
+    font-size: larger;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px rgb(80, 74, 74);
+}

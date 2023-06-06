@@ -1,5 +1,5 @@
 {
-  "name": "first_app",
+  "name": "movie_library_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
