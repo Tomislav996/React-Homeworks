@@ -21,12 +21,12 @@ const MovieList = () => {
 
     return (
         <div>
-            <div className="header">
+         <div className="header">
             <h2>{message}</h2>
             <h3>The current date is: {currentTime}</h3>
-            </div>
-            <div className='moviesContainer'>
-            <ul className='moviesList'>
+         </div>
+          <div className='moviesContainer'>
+             <ul className='moviesList'>
                 <h4>Movies List:</h4>
                 {
                     movies.map( movie => {
@@ -36,8 +36,8 @@ const MovieList = () => {
                         )
                     })
                 }
-            </ul>
-            </div>
+             </ul>
+         </div>
  
 
         </div>
