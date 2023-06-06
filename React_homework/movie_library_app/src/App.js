@@ -1,6 +1,5 @@
 
 
-
 import logo from './logo.svg';
 import './App.css';
 import MovieList from './Component_MovieList/MovieList.js';
