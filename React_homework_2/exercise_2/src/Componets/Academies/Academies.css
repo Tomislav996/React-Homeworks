@@ -1,0 +1,12 @@
+
+.academies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(71, 94, 34);
+    color: rgb(255, 235, 120);
+    font-weight: bold;
+    font-style: italic;
+    padding: 1rem;
+}

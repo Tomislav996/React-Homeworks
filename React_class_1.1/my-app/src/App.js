@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Component_Header/Header';
+import Todos from './Component_Header/Todos/Todos';
+import Counter from './Component_Header/Counter/Counter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <Todos message="Today todos list:" description="List of Todos"/>
+      <Counter/>
     </div>
   );
 }

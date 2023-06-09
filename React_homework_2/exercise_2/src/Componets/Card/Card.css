@@ -1,0 +1,19 @@
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    height: auto;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: rgb(71, 94, 34);
+    color: rgb(241, 208, 16);
+}
+
+.images {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5rem;
+    border: 2px solid black;
+}

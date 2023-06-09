@@ -1,0 +1,8 @@
+.card-header, .academies-header, .counter-header {
+  text-align: center;
+  background-color: rgb(170, 96, 6);
+  border: 2px solid rgb(83, 52, 49);
+  color: rgb(27, 27, 16);
+  margin: 0;
+  padding: 1rem;
+}
