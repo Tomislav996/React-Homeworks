@@ -48,8 +48,8 @@ class  Counter  extends React.Component {
 
     changeCounterToInput = (event) => {
 
-        let inputValue = event.target.value;
-
+        let inputValue = parseInt(event.target.value);
+        
         if(inputValue >= 0) {
 
             this.setState ({
