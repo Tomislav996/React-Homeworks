@@ -3,8 +3,6 @@
     border: 2px solid rgb(0, 0, 0);
     margin: 2rem;
     padding: 2rem;
-}
-
-.name {
-    margin: 1rem;
+    line-height: 1.5rem;
+    text-shadow: 2px 2px rgb(0, 0, 0);
 }
