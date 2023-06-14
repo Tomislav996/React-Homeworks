@@ -1,0 +1,10 @@
+
+.characters-container {
+    border: 2px solid rgb(0, 0, 0);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.name {
+    margin: 1rem;
+}
