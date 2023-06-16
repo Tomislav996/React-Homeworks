@@ -1,0 +1,22 @@
+.form-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 114, 14);
+    width: 100vw;
+
+}
+
+input {
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+    border-radius: 7px;
+    display: block;
+    min-width: 15rem;
+    margin: .5rem;
+    height: 2rem;
+
+}
