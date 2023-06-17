@@ -4,6 +4,7 @@ import Offers from "./Componets/Offers/Offers";
 import Plan from "./Componets/Plan/Plan";
 import Rooms from "./Componets/Rooms/Rooms";
 import Image_Slider from "./Componets/Image_Slider/Image_Slider";
+import Footer from "./Componets/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Plan/>
       <Rooms/>
       <Image_Slider/>
+      <Footer/>
     </div>
   )
  }
