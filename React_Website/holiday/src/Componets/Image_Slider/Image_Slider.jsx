@@ -32,8 +32,8 @@ const Image_Slider = () => {
     }
 
     const nextSlide = () => {
-        const isLastSlide = currentIndex === slides.length - 1 
-        const newIndex = isLastSlide ?  0 : currentIndex + 1
+        const isLastIndex = currentIndex === slides.length - 1
+        const newIndex = isLastIndex ? 0 : currentIndex + 1 
         setCurrentIndex(newIndex)
     }
 
@@ -56,7 +56,7 @@ const Image_Slider = () => {
         </div>
         <div className='flex top-4 justify-center py-2'>
             {slides.map((slide, slideIndex) => (
-                 <div className='text-2xl cursor-pointer' key={slideIndex} onClick={() => goToSlide(slideIndex)}>
+                 <div className='text-2xl cursor-pointer'  onClick={() => goToSlide(slideIndex)}>
                  <RxDotFilled/> 
                  </div>
             ))}
