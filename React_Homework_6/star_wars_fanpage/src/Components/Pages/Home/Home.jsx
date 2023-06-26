@@ -18,7 +18,7 @@ const Home = () => {
 
   useEffect(() => {
     fetchFilms()
-  })
+  },[])
 
   return (
     <div>
