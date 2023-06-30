@@ -1,0 +1,17 @@
+
+.todos-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.todo-container{
+    margin-bottom: 20px;
+    background-color: black;
+    font-family: monospace;
+    font-size: large;
+    color: rgb(21, 255, 21);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+}
