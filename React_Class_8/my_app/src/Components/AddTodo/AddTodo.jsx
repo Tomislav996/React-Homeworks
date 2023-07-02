@@ -36,6 +36,7 @@ const AddTodo = () => {
         }
 
         dispatch({type: "ADD_TODO", payload: todo})
+
     }
 
     return (
@@ -43,7 +44,7 @@ const AddTodo = () => {
             <h2>Add Todo Form</h2>
             <form onSubmit={handleAddTodo}>
             <label htmlFor="todo-title">todo:</label>
-            <input onChange={handleChangtodoTitle} type="text" id="todo-title" />
+            <input onChange={handleChangtodoTitle} value={todoTitle} type="text" id="todo-title" />
             <br />
             <label htmlFor="todo-status">Completion Status: </label>
             <input onChange={handleChangeCompletionStatus} type="checkbox" id="todo-status" />
