@@ -11,10 +11,12 @@ const Favourites = () => {
         <div className="favorites-container">
           {favorites.map((item) => {
             const  {idMeal, strMealThumb:image} = item;
-            return <div key={idMeal} className="favorite-item">
+            return (
+              <div key={idMeal} className="favorite-item">
               <img src={image} className="favorites-img img" alt="" onClick={() => selectMeal(idMeal, true)} />
               <button className="remove-btn" onClick={() => deleteFromFavorites(idMeal)}>remove </button>
             </div>
+            )
           })}
         </div>
       </div>
